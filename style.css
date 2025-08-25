@@ -1,103 +1,103 @@
- 1 /* --- Basic Setup --- */
-     2 body {
-     3     font-family: Georgia, 'Times New Roman', Times, serif;
-     4     color: #333;
-     5     line-height: 1.6;
-     6     background-color: #fff;
-     7     margin: 0;
-     8 }
-     9
-    10 h1, h2, h3, nav {
-    11     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    12 }
-    13
-    14 a {
-    15     color: #007bff;
-    16     text-decoration: none;
-    17 }
-    18 a:hover {
-    19     text-decoration: underline;
-    20 }
-    21
-    22 /* --- Two-Column Layout --- */
-    23 .wrapper {
-    24     display: flex;
-    25     flex-direction: row;
-    26     align-items: flex-start;
-    27 }
-    28
-    29 /* --- Sidebar (Left Column) --- */
-    30 .sidebar {
-    31     width: 280px; /* Fixed width for the sidebar */
-    32     padding: 40px 20px;
-    33     border-right: 1px solid #eee;
-    34     height: 100vh; /* Make sidebar full height of the viewport */
-    35     position: sticky; /* Stick to the top on scroll */
-    36     top: 0;
-    37     overflow-y: auto; /* Allow scrolling if content is too long */
-    38 }
-    39
-    40 .sidebar h1 {
-    41     font-size: 1.5rem;
-    42     margin: 0 0 0.5rem 0;
-    43 }
-    44
-    45 .sidebar .bio {
-    46     font-size: 0.9rem;
-    47     color: #666;
-    48     margin-bottom: 2rem;
-    49 }
-    50
-    51 .sidebar nav ul {
-    52     list-style: none;
-    53     padding: 0;
-    54     margin: 0 0 2rem 0;
-    55 }
-    56
-    57 .sidebar nav a {
-    58     display: block;
-    59     padding: 0.5rem 0;
-    60     font-size: 1.1rem;
-    61     color: #333;
-    62 }
-    63 .sidebar nav a:hover {
-    64     color: #007bff;
-    65     text-decoration: none;
-    66 }
-    67
-    68 .sidebar .contact-info p {
-    69     margin: 0.5rem 0;
-    70     font-size: 0.9rem;
-    71 }
-    72
-    73 /* --- Main Content (Right Column) --- */
-    74 .main-content {
-    75     flex-grow: 1; /* Takes up the remaining space */
-    76     padding: 40px 5%; /* Use percentage for responsive padding */
-    77     max-width: 800px;
-    78 }
-    79
-    80 .main-content h2 {
-    81     font-size: 2rem;
-    82     border-bottom: 1px solid #eee;
-    83     padding-bottom: 0.5rem;
-    84     margin-bottom: 1.5rem;
-    85 }
-    86
-    87 .project {
-    88     margin-bottom: 2rem;
-    89 }
-    90
-    91 .project h3 {
-    92     font-size: 1.2rem;
-    93     margin-bottom: 0.5rem;
-    94 }
-    95
-    96 footer {
-    97     margin-top: 3rem;
-    98     padding-top: 1rem;
-    99     border-top: 1px solid #eee;
-   100     font-size: 0.8rem;
-   101     color: #888;
-   102     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   103 }
+/* --- Basic Setup --- */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    margin: 0;
+}
+
+h1, h2, h3, nav {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Two-Column Layout --- */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* --- Sidebar (Left Column) --- */
+.sidebar {
+    width: 280px; /* Fixed width for the sidebar */
+    padding: 40px 20px;
+    border-right: 1px solid #eee;
+    height: 100vh; /* Make sidebar full height of the viewport */
+    position: sticky; /* Stick to the top on scroll */
+    top: 0;
+    overflow-y: auto; /* Allow scrolling if content is too long */
+}
+
+.sidebar h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.sidebar .bio {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+.sidebar nav a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar .contact-info p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+/* --- Main Content (Right Column) --- */
+.main-content {
+    flex-grow: 1; /* Takes up the remaining space */
+    padding: 40px 5%; /* Use percentage for responsive padding */
+    max-width: 800px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-size: 0.8rem;
+    color: #888;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
