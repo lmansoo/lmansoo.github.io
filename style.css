@@ -1,83 +1,100 @@
-/* General Body Styles */
+/* General Body Styles - Academic/Minimalist Theme */
 body {
-    font-family: 'Lato', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Georgia, serif; /* A classic, readable serif font */
+    line-height: 1.7;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 800px;
+    background-color: #ffffff;
     color: #333;
 }
 
-/* Container for centered content */
-.container {
-    width: 80%;
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
+/* Remove container class styling as we control width on the body */
+.container { 
+    width: auto;
+    max-width: none;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
 }
 
 /* Header Styles */
 header {
-    background: #2c3e50; /* A modern, dark slate blue */
-    color: #ecf0f1; /* A soft, off-white */
-    padding: 2rem 0;
-    text-align: center;
-    border-bottom: 4px solid #e74c3c; /* A strong accent color */
+    background: none;
+    color: inherit;
+    padding: 0;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 2rem;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
 }
 
 header p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: 300;
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Section Styles */
 section {
-    padding: 2rem 0;
-    border-bottom: 1px solid #ddd;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2rem;
 }
 
 section h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-    color: #2c3e50;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #000;
 }
 
 /* Project Styles */
 .project {
-    background: #fff;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: none;
+    padding: 0 0 1.5rem 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .project h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 0;
-    color: #3498db; /* A clear, friendly blue for links/headings */
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Link Styles */
+a {
+    color: #0056b3; /* A standard, accessible blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Footer Styles */
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
+    background: none;
+    color: #666;
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-footer a {
-    color: #3498db; /* Use the same friendly blue for links */
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+footer p {
+    margin: 0.5rem 0;
 }
